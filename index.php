@@ -188,27 +188,65 @@
     // }
 
 
-     $age = 5;
+    //  $age = 5;
 
-    switch ($age) {
-        case ($age >= 10   and  $age <= 20 ):
-            # code...
-            echo 'age between 10 : 20 ';
-            break;
+    // switch ($age) {
+    //     case ($age >= 10   and  $age <= 20 ):
+    //         # code...
+    //         echo 'age between 10 : 20 ';
+    //         break;
         
-        case ($age > 20  && $age <= 30 ):
-            # code...
-            echo 'age between 20 : 30';
-            break;
+    //     case ($age > 20  && $age <= 30 ):
+    //         # code...
+    //         echo 'age between 20 : 30';
+    //         break;
 
-        default:
-            # code...
-            echo 'No case Matched With Your age';
-            break;
+    //     default:
+    //         # code...
+    //         echo 'No case Matched With Your age';
+    //         break;
         
 
-    }
-   
+    // }
+
+
+
+
+
+/*
+# Task ... 
+Write a PHP program to calculate electricity bill .
+Conditions:
+For first 50 units – 3.50/unit
+For next 100 units – 4.00/unit
+For units above 150 – 6.50/unit
+You can use conditional statements.
+
+170 
+
+
+50 * 3.5; 
+100*4;
+20*6.5;
+*/
+
+// $units = 120;
+ 
+// if($units <= 50){
+//     $cost = $units * 3.50;
+// }elseif($units > 50 && $units <= 150){
+//     $Fcost = 50 * 3.50;   // 175 
+//     $Scost = ($units-50)*4;  // 70*4 = 280
+//     $cost  = $Fcost + $Scost;
+// }else{
+//     $Fcost = 50 * 3.50;
+//     $Scost = 100*4;
+//     $Tcost = ($units-150) * 6.50;
+
+//     $cost = $Fcost + $Scost + $Tcost;
+// }
+
+// echo $cost;
 
 
 ?>
